@@ -10,7 +10,7 @@ This dataset contains information on default payments, demographic factors, cred
 
 Using the information given, predict the probability of a customer defaulting in the next month.
 
-# Data Dictionary
+## Data Dictionary
 ID  Unique ID of each client
 LIMIT_BAL	Amount of given credit (NT dollars):  It includes both the individual consumer credit and his/her family (supplementary) credit 
 SEX	Gender (1=male, 2=female)
@@ -36,3 +36,6 @@ PAY_AMT4	Amount of previous payment in June, 2005 (NT dollar)
 PAY_AMT5	Amount of previous payment in May, 2005 (NT dollar)
 PAY_AMT6	Amount of previous payment in April, 2005 (NT dollar)
 default_payment_next_month	Target Variable: Default payment (1=yes, 0=no)
+
+## Future Works
+As the dataset is imbalanced, we could make it balanced using techniques like SMOTE.
